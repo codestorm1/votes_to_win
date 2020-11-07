@@ -1,0 +1,199 @@
+# historical data
+# yes, sometimes the reported percentage went down
+
+ state = "PA"
+ biden_votes = 3_051_565
+ trump_votes = 3_215_983
+ counted_percent = 89
+ 49%
+
+ state = "PA"
+ biden_votes = 3_137_658
+ trump_votes = 3_238_682
+ counted_percent = 88 # lower thn last?
+ 49%
+
+ state = "PA"
+ biden_votes = 3_143_701
+ trump_votes = 3_240_925
+ counted_percent = 92
+ needs 59%
+
+# state = "PA"
+# trump_votes = 3_260_796
+# biden_votes = 3_185_369
+# counted_percent = 93
+# 59%
+
+state = "PA"
+trump_votes = 3_264_017
+biden_votes = 3_199_756
+counted_percent = 89
+59%
+
+state = "NV"
+biden_votes = 588_252
+trump_votes = 580_605
+counted_percent = 75
+# 49%
+
+# state = "NC"
+# biden_votes = 2_655_383
+# trump_votes = 2_732_084
+# counted_percent = 94
+# 61%
+
+
+# state = "GA"
+# biden_votes = 2_425_445
+# trump_votes = 2_438_216
+# counted_percent = 99
+# 63%
+
+state = "GA"
+biden_votes = 2_425_417
+trump_votes = 2_438_181
+counted_percent = 98
+# 56%
+
+
+# state = "NV"
+# biden_votes = 606_251
+# trump_votes = 592_813
+# counted_percent = 76
+#
+
+# state = "GA"
+# trump_votes = 2_439_800
+# biden_votes = 2_430_265
+# counted_percent = 99
+# 55%
+
+# state = "GA"
+# trump_votes = 2_445_539
+# biden_votes = 2_441_904
+# counted_percent = 99
+# 54%
+
+# state = "AZ"
+# biden_votes = 1_469_341
+# trump_votes = 1_400_951
+# counted_percent = 88
+# 41%
+
+# state = "PA"
+# trump_votes = 3_264_017
+# biden_votes = 3_199_756
+# counted_percent = 89
+# # 54%
+
+
+# state = "PA"
+# trump_votes = 3_270_295
+# biden_votes = 3_217_079
+# counted_percent = 90
+
+state = "PA"
+trump_votes = 3_280_308
+biden_votes = 3_243_786
+counted_percent = 94
+# 53%
+
+# state = "GA"
+# trump_votes = 2_447_233
+# biden_votes = 2_445_321
+# counted_percent = 99
+# 52%
+
+state = "PA"
+trump_votes =
+biden_votes = 3_255_710
+counted_percent = 90
+# 53%
+
+# state = "NV"
+# biden_votes = 604_251
+# trump_votes = 592_813
+# counted_percent = 89
+# 46%
+
+# state = "NC"
+# trump_votes = 2_732_120
+# biden_votes = 2_655_383
+# counted_percent = 94
+# 64%
+
+
+# state = "GA"
+# trump_votes = 2_447_343
+# biden_votes = 2_445_568
+# counted_percent = 99
+# 52%
+
+# state = "AZ"
+# biden_votes = 1_496_142
+# trump_votes = 1_438_298
+# counted_percent = 90
+# 43%
+
+  pa = %ElectData{
+    state: "PA",
+    biden_votes: 3_255_710,
+    trump_votes: 3_281_842,
+    counted_percent: 90
+  }
+
+  nv = %ElectData{
+    state: "NV",
+    biden_votes: 604_251,
+    trump_votes: 592_813,
+    counted_percent: 89
+  }
+
+  nc = %ElectData{
+    state: "NC",
+    biden_votes: 2_655_383,
+    trump_votes: 2_732_120,
+    counted_percent: 94
+  }
+
+  ga = %ElectData{
+    state: "GA",
+    biden_votes: 2_445_568,
+    trump_votes: 2_447_343,
+    counted_percent: 99
+  }
+
+  az = %ElectData{
+    state: "AZ",
+    biden_votes: 1_496_142,
+    trump_votes: 1_438_298,
+    counted_percent: 90
+  }
+
+
+  pa = %ElectData{
+    state: "PA",
+    biden_votes: 3_319_730,
+    trump_votes: 3_302_718,
+    counted_percent: 96
+  }
+    ga = %ElectData{
+    state: "GA",
+    biden_votes: 2_455_980,
+    trump_votes: 2_451_705,
+    counted_percent: 99
+  }
+
+az = %ElectData{
+    state: "AZ",
+    biden_votes: 1_570_981,
+    trump_votes: 1_531_911,
+    counted_percent: 94
+  }
+    az = %ElectData{
+    state: "AZ",
+    biden_votes: 1_571_723,
+    trump_votes: 1_533_268,
+    counted_percent: 94
+  }
