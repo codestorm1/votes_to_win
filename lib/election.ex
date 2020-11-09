@@ -3,21 +3,11 @@ defmodule Election do
   Documentation for `Election`.
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Election.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
-
   @spec calc_and_print(ElectData.t()) :: :ok
   def calc_and_print(%ElectData{} = ed) do
+    @doc """
+    This was a simple exs script and should be cleaned up and made beautiful before the next election...
+    """
     hum = fn num -> Number.Delimit.number_to_delimited(num, delimiter: ",", precision: 0) end
     gap = ed.trump_votes - ed.biden_votes
     counted = ed.trump_votes + ed.biden_votes

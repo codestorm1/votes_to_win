@@ -4,39 +4,37 @@ defmodule ElectionTest do
 
   pa = %ElectData{
     state: "PA",
-    biden_votes: 3_323_940,
-    trump_votes: 3_304_356,
-    counted_percent: 96
+    biden_votes: 3_358_920,
+    trump_votes: 3_314_726,
+    counted_percent: 98
   }
 
   nv = %ElectData{
     state: "NV",
-    biden_votes: 632_558,
-    trump_votes: 609_901,
-    # counted_percent: 93
-    # they said 120,000 left
-    counted_percent: 91.15
+    biden_votes: 657_248,
+    trump_votes: 625_784,
+    counted_percent: 96
   }
 
   nc = %ElectData{
     state: "NC",
-    biden_votes: 2_655_858,
-    trump_votes: 2_732_481,
+    biden_votes: 2_658_274,
+    trump_votes: 2_733_681,
     counted_percent: 98
   }
 
   ga = %ElectData{
     state: "GA",
-    biden_votes: 2_456_473,
-    trump_votes: 2_452_511,
-    counted_percent: 99
+    biden_votes: 2_465_781,
+    trump_votes: 2_455_428,
+    counted_percent: 99.5
   }
 
   az = %ElectData{
     state: "AZ",
-    biden_votes: 1_572_346,
-    trump_votes: 1_535_511,
-    counted_percent: 90
+    biden_votes: 1_643_664,
+    trump_votes: 1_626_679,
+    counted_percent: 98
   }
 
   ak = %ElectData{
@@ -48,7 +46,7 @@ defmodule ElectionTest do
 
   wi = %ElectData{
     state: "WI",
-    biden_votes: 1_630_570,
+    biden_votes: 1_630_569,
     trump_votes: 1_610_030,
     counted_percent: 99
   }

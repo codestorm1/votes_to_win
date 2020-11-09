@@ -197,3 +197,115 @@ az = %ElectData{
     trump_votes: 1_533_268,
     counted_percent: 94
   }
+
+
+  pa = %ElectData{
+    state: "PA",
+    biden_votes: 3_323_940,
+    trump_votes: 3_304_356,
+    counted_percent: 96
+  }
+
+  ga = %ElectData{
+    state: "GA",
+    biden_votes: 2_456_473,
+    trump_votes: 2_452_511,
+    counted_percent: 99
+  }
+    pa = %ElectData{
+    state: "PA",
+    biden_votes: 3_336_887,
+    trump_votes: 3_308_054,
+    counted_percent: 99
+  }
+    ga = %ElectData{
+    state: "GA",
+    biden_votes: 2_461_455,
+    trump_votes: 2_454_207,
+    counted_percent: 99.5
+  }
+    az = %ElectData{
+    state: "AZ",
+    biden_votes: 1_572_346,
+    trump_votes: 1_535_511,
+    counted_percent: 90
+  }
+
+  nc = %ElectData{
+    state: "NC",
+    biden_votes: 2_655_858,
+    trump_votes: 2_732_481,
+    counted_percent: 98
+  }
+
+  nv = %ElectData{
+    state: "NV",
+    biden_votes: 632_558,
+    trump_votes: 609_901,
+    # counted_percent: 93
+    # they said 120,000 left
+    counted_percent: 91.15
+  }
+
+    az = %ElectData{
+    state: "AZ",
+    biden_votes: 1_604_067,
+    trump_votes: 1_574_206,
+    counted_percent: 97
+  }
+  nv = %ElectData{
+    state: "NV",
+    biden_votes: 642_604,
+    trump_votes: 616_905,
+    # counted_percent: 93
+    # they said 120,000 left
+    counted_percent: 94
+  }
+
+  az = %ElectData{
+    state: "AZ",
+    biden_votes: 1_626_943,
+    trump_votes: 1_574_206,
+    counted_percent: 97
+  }
+
+  nc = %ElectData{
+    state: "NC",
+    biden_votes: 2_656_303,
+    trump_votes: 2_732_818,
+    counted_percent: 92
+  }
+
+ pa = %ElectData{
+    state: "PA",
+    biden_votes: 3_345_724,
+    trump_votes: 3_331_310,
+    counted_percent: 99
+  }
+    pa = %ElectData{
+    state: "PA",
+    biden_votes: 3_357_155,
+    trump_votes: 3_314_297,
+    counted_percent: 98
+  }
+    nv = %ElectData{
+    state: "NV",
+    biden_votes: 647_474,
+    trump_votes: 619_944,
+    counted_percent: 95
+  }
+
+    ga = %ElectData{
+    state: "GA",
+    biden_votes: 2_461_542,
+    trump_votes: 2_454_278,
+    counted_percent: 99.5
+  }
+
+    az = %ElectData{
+    state: "AZ",
+    biden_votes: 1_631_286,
+    trump_votes: 1_612_733,
+    counted_percent: 97
+  }
+
