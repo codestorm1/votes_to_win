@@ -309,3 +309,17 @@ az = %ElectData{
     counted_percent: 97
   }
 
+  nv = %ElectData{
+    state: "NV",
+    biden_votes: 657_248,
+    trump_votes: 625_784,
+    counted_percent: 96
+  }
+
+    ak = %ElectData{
+    state: "AK",
+    biden_votes: 56_849,
+    trump_votes: 108_231,
+    counted_percent: 56
+  }
+

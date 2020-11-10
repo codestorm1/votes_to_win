@@ -11,16 +11,17 @@ defmodule ElectionTest do
 
   nv = %ElectData{
     state: "NV",
-    biden_votes: 657_248,
-    trump_votes: 625_784,
-    counted_percent: 96
+    biden_votes: 664_162,
+    trump_votes: 629_879,
+    counted_percent: 97
   }
 
   nc = %ElectData{
     state: "NC",
     biden_votes: 2_658_274,
     trump_votes: 2_733_681,
-    counted_percent: 98
+    # counted_percent: 98,
+    uncounted_votes: 171_666
   }
 
   ga = %ElectData{
@@ -34,14 +35,16 @@ defmodule ElectionTest do
     state: "AZ",
     biden_votes: 1_643_664,
     trump_votes: 1_626_679,
-    counted_percent: 98
+    counted_percent: 98,
+    uncounted_votes: 77_000
   }
 
   ak = %ElectData{
     state: "AK",
     biden_votes: 56_849,
     trump_votes: 108_231,
-    counted_percent: 56
+    # counted_percent: 56,
+    uncounted_votes: 157_209
   }
 
   wi = %ElectData{

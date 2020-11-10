@@ -10,9 +10,7 @@ defmodule Election do
   def calc_and_print(%ElectData{} = ed) do
     hum = fn num -> Number.Delimit.number_to_delimited(num, delimiter: ",", precision: 0) end
     gap = ed.trump_votes - ed.biden_votes
-    counted = ed.trump_votes + ed.biden_votes
-    total_expected = 100 * counted / ed.counted_percent
-    uncounted_votes = (total_expected - counted) |> round()
+    uncounted_votes = uncounted_votes(ed)
 
     split_remaining = uncounted_votes - gap
     split_each = split_remaining / 2
@@ -37,5 +35,20 @@ defmodule Election do
     end
 
     :ok
+  end
+
+  # Given a number of uncounted votes, use it
+  defp uncounted_votes(%ElectData{uncounted_votes: uncounted}) when uncounted > 0 do
+    uncounted
+  end
+
+  # Given a total of counted votes and a percentage counted, calculate remaining votes
+  defp uncounted_votes(%ElectData{} = ed) do
+    counted = ed.trump_votes + ed.biden_votes
+    total_expected = 100 * counted / ed.counted_percent
+    uncounted = total_expected - counted
+
+    uncounted
+    |> round()
   end
 end
